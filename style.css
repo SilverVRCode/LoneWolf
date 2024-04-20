@@ -13,7 +13,7 @@ body{
 	width:min(1000px,90%);
 	margin-left:calc((100vw - min(1000px,90%)) / 2);
   color:whitesmoke;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
              1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 }
@@ -57,7 +57,7 @@ body{
 #left{
 	display:flex;
 	align-items:center;
-  font-family:'Montserrat',sans-serif;
+  font-family:'Raleway',sans-serif;
   font-weight:500;
 }
 #left > a{
@@ -74,7 +74,7 @@ body{
 	width:min(1000px,90%);
 	margin-left:calc((100vw - min(1000px,90%)) / 2);
   color:whitesmoke;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
              1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 }
@@ -118,8 +118,6 @@ body{
 }
 #body_left img{
 	width:100%;
-	border-radius:25px;
-	box-shadow:0 0 130px #616161;
 }
 #body_left p{
   color:white;
@@ -133,20 +131,27 @@ body{
 }
 #text_container{
   color:white;
-  font-family:'Montserrat',sans-serif;
+  font-family:'Raleway',sans-serif;
   text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
              1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 }
 #mainimg{
     object-fit:cover;
+    width: 50vw;
+    height: auto;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222)
+}
+#aboutimg{
+    object-fit:cover;
     width: 500px;
     height: auto;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222)
 }
 #footer-container{
 	position:absolute;
-	top:200vh;
+	top:300vh;
 	left:0;
 	width:100vw;
 	height:160px;
@@ -166,5 +171,5 @@ body{
 }
 #footer p{
 	font-size:20px;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
