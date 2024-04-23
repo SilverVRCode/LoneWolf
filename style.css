@@ -7,14 +7,14 @@ body{
 }
 #hero{
     top: 100vh;
-    position:absolute;
+    position :absolute;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	height:50%;
 	width:min(1000px,90%);
 	margin-left:calc((100vw - min(1000px,90%)) / 2);
-  color:whitesmoke;
+  color:rgb(255, 255, 255);
   font-family: 'Raleway', sans-serif;
   text-shadow: 4px 4px 10px #000000;
 }
@@ -62,12 +62,14 @@ body{
 	align-items:center;
   font-family:'Raleway',sans-serif;
   font-weight:500;
+  scroll-behavior: smooth;
 }
 #left > a{
 	color:rgb(255, 255, 255);
 	text-decoration:none;
 	margin-right:8px;
 	margin-left:8px;
+	behavior: 'smooth';
 }
 #thewolfhimself{
 	display:flex;
